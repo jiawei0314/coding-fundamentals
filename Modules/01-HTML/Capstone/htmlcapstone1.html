@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="about me">
+    <meta name="author" content="Jia Wei">
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+        <h1>All About Me</h1>
+    </header>
+
+    <section>
+        <h2>My Background</h2>
+        
+        <table>
+            <caption><b>My Info</b></caption>
+            <tr>
+                <td>Name:</td>
+                <td>Lee Jia Wei</td>
+            </tr>
+
+            <tr>
+                <td>Age:</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>Field of Study:</td>
+                <td>Cell and Molecular Biology</td>
+            </tr>
+
+            <tr>
+                <td>Interest:</td>
+                <td>Gym, DOTA2, Movie</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>My Favourite</h2>
+        <h3>Food</h3>
+        <ol>
+            <li>Wan Tan Mee</li>
+            <li>Fast Food (MCD, Pizza)</li>
+            <li>Thai Food</li>
+        </ol>
+
+        <h3>Movie</h3>
+        <dl>
+            <dt>Avengers</dt>
+            <dd><img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg" alt="this is an image of avengers" height="300px" width="200px"></dd>
+        </dl>
+    </section>
+
+    <footer>
+        <p><b>For more information please fill in the form below. Thank you.</b></p>
+
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Name" id="name" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email" id="email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="phone number">Phone Number:</label>
+                <input type="text" name="phonenumber" placeholder="phone number" id="phonenumber" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="age">Age (optional)</label> <br>
+                <input type="number" name="age" id="age" placeholder="Age" required min="10" max="99">
+            </div>
+
+            <br>
+
+            <div> Gender
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="roles">Which option best describes your current role?</label> <br>
+                <select name="roles" id="roles">
+                    <option disabled selected value>Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Learner">Unemployed</option>
+                    <option value="Prefer Not To Say">Prefer Not To Say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <br>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+</body>
+</html>
