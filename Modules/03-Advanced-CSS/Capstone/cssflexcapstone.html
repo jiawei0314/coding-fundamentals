@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="css flexbox capstone">
+    <meta name="author" content="Jia Wei">
+    <title>CSS Flexbox Capstone Project</title>
+    <link rel="stylesheet" href="cssflexcapstone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul class="topnav">
+                <li><img class="icon" src="https://cdn-icons-png.flaticon.com/512/857/857718.png" alt="this is an icon"></li>
+                <li class="mainnav"><a href="#" class="navhover">Home</a></li>
+                <li class="mainnav"><a href="#">About</a></li>
+                <li class="mainnav"><a href="#">Project</a></li>
+                <li class="mainnav"><a href="#">Careers</a></li>
+            </ul>
+        </nav>
+        <p class="btn">Register Now</p>
+
+        <section class="hero1">
+            <div class="maintext">
+                <h1>Get in touch</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis officia labore nihil, magnam natus debitis blanditiis. Blanditiis adipisci dolore repellat?</h2>
+            </div>
+        </section>
+    </header>
+
+    <section class="hero2">
+        <div class="mycontact">
+            <h3>Contact Information</h3>
+            <p class="contacttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium alias quis nostrum, porro vitae inventore!</p>
+            <i class="fa fa-phone">    +60 16-5184427</i> <br> 
+            <i class="fa fa-envelope-o">     leejiawei.0314@gmail.com</i>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/JiaWei.Lee.0314/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/in/jiawei0314/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/jiawei.0314/" target="_blank" class="fa fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="contactform">
+            <h3>Send us a message</h3>
+            <div class="row1">
+                <div class="firstname">
+                    <label for="first name">First Name</label> <br>
+                    <input type="text" placeholder="First Name" id="firstname" required>
+                </div>
+
+                <div class="lastname">
+                    <label for="last name">Last Name</label> <br>
+                    <input type="text" placeholder="Last Name" id="lastname" required>
+                </div>
+            </div>
+
+            <div class="row2">
+                <div class="email">
+                    <label for="email">Email</label> <br>
+                    <input type="email" placeholder="Email" id="email" required>
+                </div>
+
+                <div class="phone">
+                    <label for="phone">Phone (optional) </label> <br>
+                    <input type="text" placeholder="Phone Number" id="phonenumber" >
+                </div>
+            </div>
+
+            <div class="subject">
+                <label for="subject">Subject</label> <br>
+                <select name="subject" id="subject">
+                    <option disabled selected value>Select a Subject</option>
+                    <option value="fastfood">Fast Food</option>
+                    <option value="westernfood">Western Food</option>
+                    <option value="Easternfood">Eastern Food</option>
+                    <option value="Chinesefood">Chinese Food</option>
+                </select>
+            </div>
+
+            <div class="message">
+                <label for="message">Message</label> <br>
+                <textarea name="message" id="message" cols="125" rows="10" placeholder="Enter your message here......"></textarea>
+            </div> 
+
+            <div class="submitbutton">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
