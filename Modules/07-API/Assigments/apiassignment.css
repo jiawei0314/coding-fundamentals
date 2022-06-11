@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin-top: 300px;
+    background-color: bisque;
+}
+
+.contentBox {
+    font-size: 5vmin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+.authorBox {
+    font-size: 3vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+#author::before {
+    content: '- ';
+}
+
+#btn {
+    font-size: 3vmin;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid bisque;
+    background-color: cornsilk;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rgb(228, 187, 25);
+    color: rgb(240, 235, 227);
+    transform: scale(105%);
+}
