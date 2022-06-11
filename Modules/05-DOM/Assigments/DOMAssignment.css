@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkseagreen;
+}
+
+.addbtn {
+    margin: 30px;
+    padding: 10px 20px;
+    font-size: 3vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    background-color: burlywood;
+    border-radius: 50px;
+    border: 2px solid burlywood;
+}
+
+.addbtn:hover {
+    cursor: pointer;
+    background-color: rgb(219, 159, 81);
+    border: 2px solid rgb(219, 159, 81);
+    color: aliceblue;
+}
+
+.notification {
+    background-color: burlywood;
+    height: max-content;
+    width: 400px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 10px 30px;
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+
+.fa-regular {
+    color: green;
+    font-size: 4vmin;
+}
+
+h1 {
+    font-size: 4vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-xmark {
+    font-size: 3.5vmin;
+    opacity: 50%;
+}
+
+.fa-xmark:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    opacity: 100%;
+}
+
+.hero1 {
+    background-color: blue;
+    height: 400px;
+}
+
+h2 {
+    color: aliceblue;
+    float: right;
+    font-size: 10vmin;
+}
